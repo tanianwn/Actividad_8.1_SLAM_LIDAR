@@ -98,15 +98,26 @@ waypoints = [
   <img width="400" alt="Screenshot from 2026-05-25 22-45-41" src="https://github.com/user-attachments/assets/1d258024-871f-4bef-bde2-4d59d88f90fc" />
 </div>
 
-En el tercer ejercicio se implementó una cuadrícula secuencial de 16 *waypoints* diseñada en zigzag para recorrer de forma continua el mapa.
+En el tercer ejercicio se implementó una cuadrícula secuencial de 16 *waypoints* diseñada de arriba hacia abajo para recorrer de forma continua el mapa.
 
 ```matlab
 waypoints = [
-    1, 1;  1, 2;  1, 3;  1, 4;  
-    2, 4;  2, 3;  2, 2;  2, 1;  
-    3, 1;  3, 2;  3, 3;  3, 4;  
-    4, 4;  4, 3;  4, 2;  4, 1
-];
+    1, 2;  
+    1, 1;
+    2, 1;
+    2, 2;
+    3, 2;
+    3, 1;
+    4, 1;
+    4, 2;
+    4, 3;
+    3, 3;
+    4, 4;
+    3, 4;
+    2, 4;
+    1, 4;
+    1, 3;  
+    2, 3];
 ```
 
 ---
