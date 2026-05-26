@@ -204,3 +204,17 @@ for idx = 2:numel(tVec)
     waitfor(r);
 end
 ```
+ # Actividad 8.2 (SLAM de Lidar)
+
+En esta segunda parte se presenta la implementación del control de navegación para un robot móvil de tracción diferencial. El objetivo principal de esta actividad es lograr que el código genere el seguimiento de los siguientes *waypoints* de forma secuencial: (1, 2), (2, 10), (11, 8), (8, 2), y (1, 2), integrando el algoritmo **Pure Pursuit** para el seguimiento de la trayectoria y el algoritmo **VFH (Vector Field Histogram)** junto con un sensor Lidar para la evasión de obstáculos. Los resultados son los isguientes:
+
+<div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
+  <img width="400" alt="Screenshot from 2026-05-25 23-09-34" src="https://github.com/user-attachments/assets/9ebf8949-a564-4b12-9f7c-a2dd89da12ad" />
+  <img width="400" alt="Screenshot from 2026-05-25 22-31-04" src="https://github.com/user-attachments/assets/bfb80e2b-0e40-46bc-be55-32f6a426da23" />
+</div>
+
+
+
+
+
+
