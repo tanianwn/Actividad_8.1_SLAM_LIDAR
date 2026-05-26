@@ -99,7 +99,7 @@ waypoints = [
 </div>
 
 En el tercer ejercicio se implementó una cuadrícula secuencial de 16 *waypoints* diseñada de arriba hacia abajo para recorrer de forma continua el mapa.
-
+**Para el `complexMap`**
 ```matlab
 waypoints = [
     1, 2;  
@@ -118,6 +118,26 @@ waypoints = [
     1, 4;
     1, 3;  
     2, 3];
+```
+**Para el `exampleMap`**
+```matlab
+waypoints = [
+    1, 1;  
+    1, 2;
+    1, 3;
+    1, 4;  
+    2, 4;  
+    2, 3;
+    2, 2;
+    2, 1;  
+    3, 1;  
+    3, 2;
+    3, 3;
+    3, 4;  
+    4, 4;  
+    4, 3;
+    4, 2;
+    4, 1];
 ```
 
 ---
